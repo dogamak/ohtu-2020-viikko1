@@ -1,1 +1,1 @@
-# ohtu-2020-viikko1 ![Gradle](https://github.com/dogamak/ohtu-2020-viikko1/workflows/Java%20CI%20with%20Gradle/badge.svg)
+# ohtu-2020-viikko1 ![Gradle](https://github.com/dogamak/ohtu-2020-viikko1/workflows/Java%20CI%20with%20Gradle/badge.svg) [![codecov](https://codecov.io/gh/dogamak/ohtu-2020-viikko1/branch/main/graph/badge.svg?token=MI3WZDT7KK)](https://codecov.io/gh/dogamak/ohtu-2020-viikko1)
