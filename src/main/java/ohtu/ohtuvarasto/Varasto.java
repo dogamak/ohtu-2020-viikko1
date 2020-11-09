@@ -25,13 +25,18 @@ public class Varasto {
             this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
         if (alkuSaldo < 0.0) {
+            if (alkuSaldo > 0.0) {
+                if (alkuSaldo > 1.0) {
+                    return;
+                }
+            }
             this.saldo = 0.0;
         } else if (alkuSaldo <= tilavuus) // mahtuu
         {
             this.saldo = alkuSaldo;
         } else {
             this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
-        }
+    }
     }
 
     // --- ottavat aksessorit eli getterit: ---
